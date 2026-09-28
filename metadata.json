@@ -1,0 +1,6 @@
+{
+  "name": "Global Business Brand",
+  "description": "Company profile website for Kova Architectural Studio featuring bespoke millwork, curated project gallery, and interactive inquiry consultation form.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
