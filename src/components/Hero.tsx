@@ -26,47 +26,47 @@ interface Slide {
 
 const SLIDES: Slide[] = [
   {
-    image: '/src/assets/images/hero_gorgeous_recruitment_1790224970347.jpg',
+    image: 'https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/mature-male-site-engineer-having-conversation-with-saudi-arab-businessman_476263-282.avif',
     alt: 'Executive recruitment team reviewing architectural candidates',
     badge: 'Executive Talent Acquisition',
-    title: 'Recruiting Master Joiners & Project Directors',
-    location: 'Headquartered in NY · Deployed Globally',
+    title: 'Recruiting Master KSA',
+    location: 'Headquartered in Riyad · Deployed Globally',
   },
   {
-    image: '/src/assets/images/carousel_site_crew_1790225484985.jpg',
+    image: 'https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/Move-In-Move-Out-Cleaning-Dubai-FirstCall-880x620.webp',
     alt: 'Specialized joinery installation crew on luxury project site',
-    badge: 'Turnkey Field Crews',
-    title: 'Tool-Equipped Luxury Fit-Out Specialists',
-    location: 'Active Projects: London, Dubai, New York',
+    badge: 'UAE Cleaning Services',
+    title: 'Luxury Office Cleaning',
+    location: 'Active Projects: Qatar, Dubai, Saudi',
   },
   {
-    image: '/src/assets/images/hero_recruitment_agency_1790224057209.jpg',
+    image: 'https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/uae_manpower_hero_sunlight.webp',
     alt: 'Technical site supervisors and engineering coordinators',
     badge: 'Site Leadership',
-    title: 'Bilingual Site Supervisors & QA Leads',
-    location: 'Shop Drawing Review & Tolerance Auditing',
+    title: 'Construction Welding',
+    location: 'Dubai - UAE',
   },
   {
-    image: '/src/assets/images/hero_craft_workshop_1790154582906.jpg',
-    alt: 'Master joiner trade testing at workshop bench',
-    badge: 'Bench-Tested Trades',
-    title: 'Certified Architectural Woodworkers',
-    location: 'Practical Hands-On Assessment Facility',
+    image: 'https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/6.jpg',
+    alt: 'Waiters & Waitresses',
+    badge: 'Restaurant',
+    title: 'Restaurant Workers',
+    location: 'UAE - KSA - QATAR',
   },
 ];
 
 const METRICS = [
-  { value: '2,500+', label: 'Vetted Craftsmen', detail: 'Bench-tested & trade-certified' },
-  { value: '48 Hours', label: 'Fast Shortlist', detail: 'Rapid candidate matching' },
-  { value: '99.2%', label: 'Placement Success', detail: 'Contractor retention rate' },
-  { value: '30+ Countries', label: 'Global Mobility', detail: 'Visas, payroll & travel handled' },
+  { value: '50,000+', label: 'DEPLOYMENT', detail: 'Bench-tested & trade-certified' },
+  { value: '200+', label: 'CLIENTS', detail: 'Rapid candidate matching' },
+  { value: '10+', label: 'YEARS OF EXPERIENCE', detail: 'Contractor retention rate' },
+  { value: '10+ Countries', label: 'Global Mobility', detail: 'Visas, payroll & travel handled' },
 ];
 
 const TALENT_ROLES = [
   'Construction',
   'Catering',
   'Food & Restaurant',
-  'BIM Drafters',
+  'Technical',
   'Fit-Out Leads',
 ];
 
@@ -166,15 +166,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
             <div className="flex flex-wrap items-center gap-5 text-xs text-neutral-400 pt-2 border-t border-white/10">
               <div className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-[#d1a36a]" />
-                <span>Bench-Tested Trades</span>
+                <span>International Standards</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <Clock className="w-4 h-4 text-[#d1a36a]" />
-                <span>48-Hour Shortlist</span>
+                <span>Tech-Enabled Recruitment</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <Globe className="w-4 h-4 text-[#d1a36a]" />
-                <span>Visas & Payroll Handled</span>
+                <span>Job Readiness Training</span>
               </div>
             </div>
 

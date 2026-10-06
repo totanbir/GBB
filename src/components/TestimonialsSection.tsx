@@ -10,14 +10,14 @@ export const TestimonialsSection: React.FC = () => {
           <div className="flex items-center gap-2 text-xs tracking-widest uppercase text-[#b88344] dark:text-[#d1a36a] font-semibold mb-3">
             <span>Client Endorsements</span>
             <span aria-hidden="true">·</span>
-            <span>Architect & Builder Feedback</span>
+            <span>Top Company Feedback</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-neutral-900 dark:text-white font-display [text-wrap:balance]">
-            Trusted by architects, general contractors, and private homeowners.
+            Our Trusted Clients Testimonials.
           </h2>
-          <p className="mt-4 text-base text-neutral-700 dark:text-neutral-300 leading-relaxed font-normal">
+          {/* <p className="mt-4 text-base text-neutral-700 dark:text-neutral-300 leading-relaxed font-normal">
             Real feedback from commercial hospitality operators, design principals, and custom residential commissions across New York and New England.
-          </p>
+          </p> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

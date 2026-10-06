@@ -47,8 +47,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation }) => {
           >
             <div className="relative w-10 h-10 rounded-sm overflow-hidden border border-[#e2ded5] dark:border-white/15 bg-neutral-950 shadow-xs shrink-0 group-hover:border-[#b88344] dark:group-hover:border-[#d1a36a] transition-colors">
               <img
-                src="/src/assets/images/gbb.jpg"
-                alt="Kova Studio logo"
+                src="https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/gbb.jpg"
+                alt="Global Business Brand"
                 className="w-full h-full object-cover"
               />
             </div>

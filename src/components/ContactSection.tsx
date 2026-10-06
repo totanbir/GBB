@@ -98,17 +98,17 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                 <MapPin className="w-6 h-6 text-[#b88344] dark:text-[#d1a36a]" />
               </div>
               <span className="text-xs uppercase tracking-wider text-neutral-500 dark:text-neutral-400 font-semibold block mb-2">
-                Workshop & Design Studio
+                Dhaka Office
               </span>
               <h3 className="text-xl font-bold text-neutral-900 dark:text-white font-display mb-3">
-                Fabrication Facility
+                Office Address
               </h3>
               <p className="text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed mb-4">
                 {COMPANY_INFO.address}
               </p>
               <div className="text-xs text-neutral-500 dark:text-neutral-400 space-y-1 mb-6">
-                <div>Red Hook Industrial Waterfront District</div>
-                <div>Freight loading dock accessible via Bay 4</div>
+                {/* <div>Red Hook Industrial Waterfront District</div>
+                <div>Freight loading dock accessible via Bay 4</div> */}
               </div>
             </div>
 
@@ -230,10 +230,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
 
                 <div className="pt-2 border-t border-neutral-100 dark:border-white/5">
                   <span className="text-neutral-900 dark:text-white font-medium block">
-                    Saturday & Sunday: Closed
+                    Friday: Closed
                   </span>
                   <span className="text-xs text-neutral-500 dark:text-neutral-400">
-                    On-site weekend installations by prior scheduling
+                    On-site weekend service by prior scheduling
                   </span>
                 </div>
               </div>

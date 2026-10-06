@@ -12,105 +12,122 @@ interface ClientLogo {
 const CLIENT_LOGOS: ClientLogo[] = [
   {
     id: 'marr',
-    name: 'MARR & PARTNERS',
-    subtitle: 'ARCHITECTS · NYC',
+    name: 'NESMA & PARTNER',
+    subtitle: 'KSA',
     tagline: 'High-End Residential',
     symbol: (
-      <svg viewBox="0 0 40 40" className="w-8 h-8 fill-none stroke-current" strokeWidth="2">
-        <rect x="6" y="6" width="28" height="28" />
-        <line x1="6" y1="20" x2="34" y2="20" />
-        <line x1="20" y1="6" x2="20" y2="34" />
-        <circle cx="20" cy="20" r="4" fill="currentColor" />
-      </svg>
+      <div className="relative w-35 h-18 rounded-sm overflow-hidden dark:group-hover:border-[#d1a36a] transition-colors">
+              <img
+                src="https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/Nesma_Partners_Logo.png"
+                alt="Global Business Brand"
+                className="w-full h-full object-cover"
+              />
+            </div>
     ),
   },
   {
     id: 'cadence',
-    name: 'STUDIO CADENCE',
-    subtitle: 'INTERIOR ARCHITECTURE',
+    name: 'HAYEN',
+    subtitle: 'KSA',
     tagline: 'SoHo & Tribeca',
     symbol: (
-      <svg viewBox="0 0 40 40" className="w-8 h-8 fill-none stroke-current" strokeWidth="2">
-        <circle cx="20" cy="20" r="14" />
-        <circle cx="20" cy="20" r="8" strokeDasharray="3 3" />
-        <line x1="20" y1="6" x2="20" y2="34" />
-      </svg>
+      <div className="relative w-40 h-16 rounded-sm overflow-hidden dark:group-hover:border-[#d1a36a] transition-colors">
+              <img
+                src="https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/jpeg_logo.jpeg_1763387661.webp"
+                alt="Global Business Brand"
+                className="w-full h-full object-cover "
+              />
+            </div>
     ),
   },
   {
     id: 'foster',
-    name: 'FOSTER & GRAY',
-    subtitle: 'DESIGN COLLECTIVE',
+    name: 'SMASCO',
+    subtitle: 'KSA',
     tagline: 'Hospitality Spaces',
     symbol: (
-      <svg viewBox="0 0 40 40" className="w-8 h-8 fill-none stroke-current" strokeWidth="2">
-        <polygon points="20,6 34,34 6,34" />
-        <line x1="13" y1="22" x2="27" y2="22" strokeWidth="2" />
-        <circle cx="20" cy="18" r="2" fill="currentColor" />
-      </svg>
+      <div className="relative w-40 h-16 rounded-sm overflow-hidden dark:group-hover:border-[#d1a36a] transition-colors">
+              <img
+                src="https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/smasco.png"
+                alt="Global Business Brand"
+                className="w-full h-full object-cover "
+              />
+            </div>
     ),
   },
   {
     id: 'vanguard',
-    name: 'VANGUARD GROUP',
-    subtitle: 'URBAN DEVELOPMENTS',
+    name: 'YUKSEL',
+    subtitle: 'KSA',
     tagline: 'Luxury Penthouses',
     symbol: (
-      <svg viewBox="0 0 40 40" className="w-8 h-8 fill-none stroke-current" strokeWidth="2">
-        <path d="M8 10 L20 32 L32 10" />
-        <path d="M14 10 L20 22 L26 10" />
-      </svg>
+      <div className="relative w-40 h-16 rounded-sm overflow-hidden dark:group-hover:border-[#d1a36a] transition-colors">
+              <img
+                src="https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/yukselsaudia_logo.jpeg"
+                alt="Global Business Brand"
+                className="w-full h-full object-cover "
+              />
+            </div>
     ),
   },
   {
     id: 'olmsted',
-    name: 'OLMSTED HERITAGE',
-    subtitle: 'ESTATE BUILDERS',
+    name: 'TRANSGUARD',
+    subtitle: 'UAE',
     tagline: 'Hudson Valley & CT',
     symbol: (
-      <svg viewBox="0 0 40 40" className="w-8 h-8 fill-none stroke-current" strokeWidth="2">
-        <rect x="8" y="12" width="24" height="20" />
-        <polyline points="4,16 20,4 36,16" />
-        <line x1="20" y1="18" x2="20" y2="32" />
-      </svg>
+      <div className="relative w-48 h-15 rounded-sm overflow-hidden dark:group-hover:border-[#d1a36a] transition-colors">
+              <img
+                src="https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/footer_logo.png"
+                alt="Global Business Brand"
+                className="w-full h-full object-cover "
+              />
+            </div>
     ),
   },
   {
     id: 'aethelgard',
-    name: 'AETHELGARD',
-    subtitle: 'SPATIAL PRACTICE',
+    name: 'MAJID',
+    subtitle: 'UAE',
     tagline: 'Acoustic Architecture',
     symbol: (
-      <svg viewBox="0 0 40 40" className="w-8 h-8 fill-none stroke-current" strokeWidth="2">
-        <line x1="8" y1="8" x2="32" y2="8" strokeWidth="3" />
-        <line x1="8" y1="16" x2="32" y2="16" strokeWidth="1.5" />
-        <line x1="8" y1="24" x2="32" y2="24" strokeWidth="2.5" />
-        <line x1="8" y1="32" x2="32" y2="32" strokeWidth="1" />
-      </svg>
+      <div className="relative w-50 h-9 rounded-sm overflow-hidden dark:group-hover:border-[#d1a36a] transition-colors">
+              <img
+                src="https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/Majid_Al_Futtaim_logo.svg.webp"
+                alt="Global Business Brand"
+                className="w-full h-full object-cover "
+              />
+            </div>
     ),
   },
   {
     id: 'kroll',
-    name: 'KROLL & ASSOC.',
-    subtitle: 'MASTER BUILDERS',
+    name: 'TOYOTA',
+    subtitle: 'JPN',
     tagline: 'Bespoke Joinery',
     symbol: (
-      <svg viewBox="0 0 40 40" className="w-8 h-8 fill-none stroke-current" strokeWidth="2">
-        <rect x="10" y="10" width="20" height="20" transform="rotate(45 20 20)" />
-        <circle cx="20" cy="20" r="3" fill="currentColor" />
-      </svg>
+      <div className="relative w-50 h-9 rounded-sm overflow-hidden dark:group-hover:border-[#d1a36a] transition-colors">
+              <img
+                src="https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/Toyota-Logo.png"
+                alt="Global Business Brand"
+                className="w-full h-full object-cover "
+              />
+            </div>
     ),
   },
   {
     id: 'sloane',
-    name: 'SLOANE & CO.',
-    subtitle: 'INTERIORS STUDIO',
+    name: 'ABDAL',
+    subtitle: 'HUMAN RESOURCES',
     tagline: 'Manhattan & Hamptons',
     symbol: (
-      <svg viewBox="0 0 40 40" className="w-8 h-8 fill-none stroke-current" strokeWidth="2">
-        <circle cx="15" cy="20" r="9" />
-        <circle cx="25" cy="20" r="9" />
-      </svg>
+      <div className="relative w-35 h-17 rounded-sm overflow-hidden dark:group-hover:border-[#d1a36a] transition-colors">
+              <img
+                src="https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/abdal_hrm_co.png"
+                alt="Global Business Brand"
+                className="w-full h-full object-cover"
+              />
+            </div>
     ),
   },
 ];
@@ -192,7 +209,7 @@ export const ClientLogoCarousel: React.FC = () => {
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-[#b88344] dark:bg-[#d1a36a]" />
             <h3 className="text-xs uppercase tracking-widest font-semibold text-neutral-600 dark:text-neutral-400">
-              Trusted by Leading Architectural Practices & Interior Studios
+             Overseas Specialized Recruitment Partner
             </h3>
           </div>
 

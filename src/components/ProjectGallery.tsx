@@ -36,7 +36,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ onInquireProject
   const isDragging = useRef<boolean>(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const categories = ['All', 'Residential', 'Hospitality', 'Custom Millwork', 'Commercial'];
+  const categories = ['All', 'SAUDI ARABIA', 'DUBAI', 'KUWAIT', 'MALAYSIA'];
 
   // Handle window resizing for responsive cards visible
   useEffect(() => {
@@ -176,89 +176,12 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ onInquireProject
               <span>Carousel Slider Gallery</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-neutral-900 dark:text-white font-display [text-wrap:balance]">
-              Commissioned architectural woodwork & custom interior environments.
+              OUR VALUEBALE COMPNAY DEMAND LETTER
             </h2>
           </div>
 
           {/* Slider Controls Strip */}
-          <div className="flex flex-wrap items-center gap-3">
-            {/* View Mode Toggle */}
-            <div className="flex items-center p-1 bg-neutral-200/80 dark:bg-[#16171a] border border-[#e2ded5] dark:border-white/10 rounded-sm">
-              <button
-                type="button"
-                onClick={() => setViewMode('carousel')}
-                className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider rounded-sm transition-colors cursor-pointer ${
-                  viewMode === 'carousel'
-                    ? 'bg-neutral-900 text-white dark:bg-[#d1a36a] dark:text-neutral-950 shadow-xs'
-                    : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white'
-                }`}
-                title="Slider Carousel View"
-              >
-                <span>Slider</span>
-              </button>
-              <button
-                type="button"
-                onClick={() => setViewMode('grid')}
-                className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider rounded-sm transition-colors cursor-pointer ${
-                  viewMode === 'grid'
-                    ? 'bg-neutral-900 text-white dark:bg-[#d1a36a] dark:text-neutral-950 shadow-xs'
-                    : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white'
-                }`}
-                title="Grid Overview"
-              >
-                <LayoutGrid className="w-3.5 h-3.5" />
-                <span>Grid</span>
-              </button>
-            </div>
-
-            {/* Carousel navigation buttons (visible in carousel mode) */}
-            {viewMode === 'carousel' && filteredProjects.length > itemsPerPage && (
-              <div className="flex items-center gap-2">
-                {/* Autoplay Pause / Play toggle */}
-                <button
-                  type="button"
-                  onClick={() => setIsAutoPlaying(!isAutoPlaying)}
-                  className="p-2 border border-[#d8d3c7] dark:border-white/10 rounded-sm text-neutral-700 dark:text-neutral-300 hover:text-neutral-950 dark:hover:text-white hover:border-neutral-400 dark:hover:border-white/25 transition-colors cursor-pointer bg-white dark:bg-[#16171a]"
-                  title={isAutoPlaying ? 'Pause automatic slider' : 'Resume automatic slider'}
-                  aria-label={isAutoPlaying ? 'Pause autoplay' : 'Start autoplay'}
-                >
-                  {isAutoPlaying ? (
-                    <Pause className="w-4 h-4 text-[#b88344] dark:text-[#d1a36a]" />
-                  ) : (
-                    <Play className="w-4 h-4" />
-                  )}
-                </button>
-
-                {/* Previous Button */}
-                <button
-                  type="button"
-                  onClick={handlePrev}
-                  className="p-2 border border-[#d8d3c7] dark:border-white/10 rounded-sm text-neutral-700 dark:text-neutral-300 hover:text-neutral-950 dark:hover:text-white hover:border-neutral-400 dark:hover:border-white/25 transition-colors cursor-pointer bg-white dark:bg-[#16171a]"
-                  aria-label="Previous Project Slide"
-                >
-                  <ChevronLeft className="w-4 h-4" />
-                </button>
-
-                {/* Slide Counter */}
-                <div className="px-2.5 py-1.5 border border-[#d8d3c7] dark:border-white/10 rounded-sm text-xs font-mono font-medium text-neutral-800 dark:text-neutral-200 bg-white dark:bg-[#16171a] tabular-nums">
-                  <span className="text-[#b88344] dark:text-[#d1a36a] font-bold">
-                    {String(currentIndex + 1).padStart(2, '0')}
-                  </span>{' '}
-                  / {String(filteredProjects.length).padStart(2, '0')}
-                </div>
-
-                {/* Next Button */}
-                <button
-                  type="button"
-                  onClick={handleNext}
-                  className="p-2 border border-[#d8d3c7] dark:border-white/10 rounded-sm text-neutral-700 dark:text-neutral-300 hover:text-neutral-950 dark:hover:text-white hover:border-neutral-400 dark:hover:border-white/25 transition-colors cursor-pointer bg-white dark:bg-[#16171a]"
-                  aria-label="Next Project Slide"
-                >
-                  <ChevronRight className="w-4 h-4" />
-                </button>
-              </div>
-            )}
-          </div>
+        
         </div>
 
         {/* Filter Bar & Search: Single-line controls with responsive layout */}
@@ -377,18 +300,18 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ onInquireProject
                           referrerPolicy="no-referrer"
                           loading={index < 3 ? 'eager' : 'lazy'}
                           draggable={false}
-                          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
+                          className="w-full object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 dark:from-[#111215] via-transparent to-transparent opacity-80 group-hover:opacity-50 transition-opacity" />
 
                         {/* Top Badge: Slide index & Inspect Icon */}
-                        <div className="absolute top-3 left-3 px-2 py-1 bg-black/60 backdrop-blur-xs rounded-xs text-[10px] font-mono text-neutral-300">
+                        {/* <div className="absolute top-3 left-3 px-2 py-1 bg-black/60 backdrop-blur-xs rounded-xs text-[10px] font-mono text-neutral-300">
                           {String(index + 1).padStart(2, '0')}
                         </div>
 
                         <div className="absolute top-3 right-3 p-2 bg-black/60 backdrop-blur-xs rounded-full text-white/80 group-hover:text-white group-hover:bg-[#b88344] dark:group-hover:bg-[#d1a36a] dark:group-hover:text-neutral-950 transition-colors">
                           <Maximize2 className="w-3.5 h-3.5" />
-                        </div>
+                        </div> */}
 
                         {/* Bottom-left Category label over image */}
                         <div className="absolute bottom-3 left-4 right-4">
@@ -401,7 +324,7 @@ export const ProjectGallery: React.FC<ProjectGalleryProps> = ({ onInquireProject
                       {/* Content */}
                       <div className="p-6 flex-1 flex flex-col justify-between">
                         <div>
-                          {/* Unboxed metadata line with dot separators */}
+                         
                           <div className="flex items-center gap-2 text-xs text-neutral-500 dark:text-neutral-400 mb-2">
                             <span>{project.location}</span>
                             <span aria-hidden="true">·</span>

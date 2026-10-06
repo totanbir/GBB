@@ -11,15 +11,15 @@ interface Certificate {
 const CERTIFICATES: Certificate[] = [
   {
     id: 'awi-qcp',
-    title: 'AWI Quality Certification Program (QCP)',
-    subtitle: 'Premium Grade Architectural Woodwork Manufacturer',
-    image: '/src/assets/images/cert_awi_qcp_1790162220638.jpg',
+    title: 'Dhaka North City Corporation Trade Licence',
+    // subtitle: 'Premium Grade Architectural Woodwork Manufacturer',
+    image: 'https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/ChatGPT+Image+Sep+24%2C+2026%2C+05_32_59+PM.png',
   },
   {
     id: 'fsc-guild',
-    title: 'FSC® Chain-of-Custody & Guild Accreditation',
-    subtitle: 'Certified Sustainable Timber & Master Joinery Fellowship',
-    image: '/src/assets/images/cert_fsc_guild_1790162244961.jpg',
+    title: 'Recruiting License in Bangladesh',
+    // subtitle: 'Certified Sustainable Timber & Master Joinery Fellowship',
+    image: 'https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/ChatGPT+Image+Sep+24%2C+2026%2C+04_21_32+PM.png',
   },
 ];
 
@@ -43,7 +43,7 @@ export const LicensingCertifications: React.FC = () => {
             Licensing & Certifications
           </h2>
           <p className="mt-3 text-sm sm:text-base text-neutral-600 dark:text-neutral-400 font-normal">
-            Official quality accreditations and sustainable forestry certifications awarded to Kova Architectural Woodwork.
+            Official Dhaka North City Corporation Trade Licence and Recruiting License to Global Business Brand.
           </p>
         </div>
 
