@@ -50,8 +50,8 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-sm overflow-hidden border border-[#e2ded5] dark:border-white/15 bg-neutral-950 shadow-xs shrink-0">
                 <img
-                  src="/src/assets/images/gbb.jpg"
-                  alt="Kova Studio logo"
+                  src="https://idolgroup-hrm-all-file-store.s3.ap-southeast-1.amazonaws.com/gbb.jpg"
+                  alt="Global Business Brand"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -65,7 +65,7 @@ export const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-sm">
-              Custom architectural millwork, precision timber joinery, and tailored interior fabrication for residential and hospitality spaces.
+              Connecting skilled Bangladeshi talent with trusted global employers, creating meaningful careers and delivering reliable workforce solutions across international markets.
             </p>
             <div className="text-neutral-500 dark:text-neutral-400 text-[11px]">
               Address: {COMPANY_INFO.address}
